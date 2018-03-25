@@ -1,6 +1,6 @@
 {
   "name": "can-fixture-defaults",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Provides useful default behavior using can-fixture and can-set",
   "main": "index.js",
   "scripts": {

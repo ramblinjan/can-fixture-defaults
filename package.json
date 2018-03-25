@@ -1,0 +1,48 @@
+{
+  "name": "can-fixture-defaults",
+  "version": "1.0.0",
+  "description": "Provides useful default behavior using can-fixture and can-set",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "test": "karma start karma.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ramblinjan/can-fixture-defaults.git"
+  },
+  "keywords": [
+    "canjs",
+    "can-fixture",
+    "can-set"
+  ],
+  "author": "Jan Jorgensen <jandjorgensen@gmail.com> (http://ramblinjan.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ramblinjan/can-fixture-defaults/issues"
+  },
+  "homepage": "https://github.com/ramblinjan/can-fixture-defaults#readme",
+  "dependencies": {
+    "can-fixture": "^2.0.3",
+    "can-set": "^1.5.2"
+  },
+  "devDependencies": {
+    "axios": "^0.18.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-es6-promise": "^1.1.1",
+    "babel-preset-env": "^1.6.1",
+    "chai": "^4.1.2",
+    "karma": "^2.0.0",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-mocha": "^1.3.0",
+    "karma-phantomjs-launcher": "^1.0.4",
+    "karma-webpack": "^4.0.0-beta.0",
+    "mocha": "^5.0.5",
+    "mocha-loader": "^1.1.3",
+    "mocha-webpack": "^1.1.0",
+    "webpack": "^4.2.0",
+    "webpack-cli": "^2.0.13"
+  }
+}

@@ -1,12 +1,20 @@
 {
   "name": "can-fixture-defaults",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "Provides useful default behavior using can-fixture and can-set",
   "main": "index.js",
   "scripts": {
+    "preversion": "npm test && npm run build",
+    "version": "git commit -am \"Update version number\" && git checkout -b release && git add -f dist/",
+    "postpublish": "git push --tags && git checkout master && git branch -D release && git push origin master",
+    "release:pre": "npm version prerelease && npm publish --tag=pre",
+    "release:patch": "npm version patch && npm publish",
+    "release:minor": "npm version minor && npm publish",
+    "release:major": "npm version major && npm publish",
     "dev": "webpack --mode development",
     "build": "webpack --mode production",
-    "test": "karma start karma.conf.js"
+    "test": "karma start karma.conf.js --single-run",
+    "test:watch": "karma start karma.conf.js"
   },
   "repository": {
     "type": "git",

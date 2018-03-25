@@ -1,6 +1,6 @@
 /* eslint-disable no-undef */
 import { expect } from 'chai';
-import { mockData } from '../src';
+import mockData from '../src';
 import axios from 'axios';
 
 const baseItems = [

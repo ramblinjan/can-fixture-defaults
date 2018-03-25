@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/ramblinjan/can-fixture-defaults.svg?branch=master)](https://travis-ci.org/ramblinjan/can-fixture-defaults)
+
 # can-fixture-defaults
 Provides useful default behavior using can-fixture
 

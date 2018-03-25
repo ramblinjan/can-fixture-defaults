@@ -3,9 +3,6 @@
   "version": "1.0.2",
   "description": "Provides useful default behavior using can-fixture and can-set",
   "main": "dist/main.js",
-  "files": [
-    "dist/main.js"
-  ],
   "scripts": {
     "preversion": "npm test && npm run build",
     "version": "git commit -am \"Update version number\" && git checkout -b release && git add -f dist/",

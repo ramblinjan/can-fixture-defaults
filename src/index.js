@@ -1,7 +1,8 @@
 import fixture, { store } from 'can-fixture';
 import { Algebra, props } from 'can-set';
 
-export const mockData = (url, baseItems, id = 'id') => {
+/* eslint-disable-next-line import/no-default-export */
+export default mockData = (url, baseItems, id = 'id') => {
   const mockAlgebra = new Algebra(
     props.id(id)
   );
@@ -20,6 +21,3 @@ export const mockData = (url, baseItems, id = 'id') => {
     close: () => fixture(url, null)
   };
 };
-
-/* eslint-disable-next-line import/no-default-export */
-export default mockData;

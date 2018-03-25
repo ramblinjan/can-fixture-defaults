@@ -2,7 +2,7 @@
   "name": "can-fixture-defaults",
   "version": "1.0.1",
   "description": "Provides useful default behavior using can-fixture and can-set",
-  "main": "main.js",
+  "main": "dist/main.js",
   "files": [
     "dist/main.js"
   ],
